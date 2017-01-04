@@ -1,8 +1,3 @@
-/**
- * 格式化地址
- * @param url
- * @returns {*}
- */
 function formatUrl(url) {
 	if (!url) {
 		url = 'chrome://newtab/';
@@ -12,9 +7,6 @@ function formatUrl(url) {
 	return url;
 }
 
-/**
- * 创建 Tab
- */
 var createTabs = function () {
 
 	var url = Url.get(),
